@@ -1,0 +1,45 @@
+<---------------------nodejs--------------------->
+html,css and js run only in browser, but nodejs provide the environment to run 'javascript' code ouside of browser
+by chat-
+Normally, JavaScript runs only inside a web browser (like Chrome, Firefox, etc.).
+But Node.js allows you to run JavaScript outside the browser, directly on your computer (like you run Python, Java, or C++).
+This means you can use JavaScript not just for the frontend (webpages), but also for the backend (server-side programming).
+
+✨ Example:
+Imagine you are building a website.
+Frontend: What users see → buttons, forms, text (HTML, CSS, JS in browser).
+Backend: The logic, database handling, API, and file system → usually done with languages like Java, Python, or PHP.
+With Node.js, you can use JavaScript for backend too, so you use one language (JavaScript) everywhere.
+
+🔑 Key points in simple words:
+Runs JavaScript outside browser → in your computer/server.
+Fast because it is built on Chrome’s V8 engine.
+Non-blocking (asynchronous) → can handle many tasks at the same time (good for chat apps, live notifications, etc.).
+Used to build APIs, servers, real-time apps.
+👉 So, think of Node.js as a tool that lets JavaScript work like Python or Java, but for building servers and backend applications.
+
+<----------------------Expressjs, Link: https://expressjs.com/------------------------->
+👉 Express.js is like a helper framework for Node.js.
+Node.js can already create servers, but it’s a bit complicated (you have to write a lot of code).
+Express.js makes it super easy and faster to build web servers and APIs using Node.js.
+
+✨ Example in real life:
+Think of Node.js as a raw kitchen – you have the stove, utensils, and ingredients, but you need to do everything manually.
+Express.js is like a well-organized restaurant kitchen – it gives you ready tools, shortcuts, and helpers to cook food (create servers) much faster.
+
+🔑 Key Points in simple words:
+Built on Node.js → makes backend coding easier.
+Helps build APIs → routes like /login, /signup, /products.
+Middleware system → like waiters in a restaurant, handling requests before sending response.
+Less code, more power → instead of writing 50 lines, you can do the same work in 5 lines.
+
+👉 So, Express.js = Easy way to use Node.js for creating web apps and APIs.
+
+<------------------------------------------------------------------------------------------------------>
+1.create empty node application : npm init (create package.json file)
+2.create index.js file 
+3.for run index.js file using node  (node index.js), or using npm (npm run start) but we add ("start": "node index.js") in script of package.json file.
+4.install Express.js : npm install express (node_modules and package-lock.json file create),     Link: https://expressjs.com/
+5.install dotenv : npm i dotenv (to make code production ready)       Link:https://www.npmjs.com/package/dotenv
+6.create .env file
+7.create gitignore file
