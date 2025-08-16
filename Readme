@@ -35,7 +35,7 @@ Less code, more power → instead of writing 50 lines, you can do the same work 
 
 👉 So, Express.js = Easy way to use Node.js for creating web apps and APIs.
 
-<------------------------------------------------------------------------------------------------------>
+<------------L2: create oun server and deploy backend code in production------------------>
 1.create empty node application : npm init (create package.json file)
 2.create index.js file 
 3.for run index.js file using node  (node index.js), or using npm (npm run start) but we add ("start": "node index.js") in script of package.json file.
@@ -43,3 +43,4 @@ Less code, more power → instead of writing 50 lines, you can do the same work 
 5.install dotenv : npm i dotenv (to make code production ready)       Link:https://www.npmjs.com/package/dotenv
 6.create .env file
 7.create gitignore file
+8.push the code on github and deploy in 'render' app    Link:https://render.com/
