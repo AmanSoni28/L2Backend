@@ -51,6 +51,9 @@ app.get('/twitter', (req, res)=>{
 app.get('/login', (req, res)=>{
      res.send("<h1>Login with userId and Password</h1>")
 })
+app.get('/Aman', (req, res)=>{
+     res.send("<h2>My name is Aman")
+})
 
 app.get("/youtube", (req, res)=>{
    res.send("welcome to youtube")
